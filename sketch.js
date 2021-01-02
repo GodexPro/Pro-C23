@@ -32,7 +32,7 @@ function setup() {
 	groundSprite=createSprite(width/2, height-35, width,10);
 	groundSprite.shapeColor=color(255);
 
-	side1 = new Box(400,650,200,20);
+	//side1 = new Box(400,650,200,20);
 	side2 = new Box(300,610,20,100);
 	side3 = new Box(500,610,20,100);
 
@@ -62,7 +62,7 @@ function draw() {
   packageSprite.y= packageBody.position.y 
   drawSprites();
 
-  side1.display();
+  //side1.display();
   side2.display();
   side3.display();
  
